@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIMICRI | TU SINDICATO</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Saira&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+</head>
+
+<body>
+    <div class="containerContacto">
+        <header>
+            <nav class="navbar">
+                <a href="index.html"><img src="IMG/SIMICRI.png" class="logo" alt="logo" title="logo"></a>
+                <ul class="menu">
+                    <li><a href="Beneficios.html">Beneficios</a></li>
+                    <li><a href="Quienes-somos.html">Quienes Somos</a></li>
+                    <li><a href="Acuerdos.html">Acuerdos</a></li>
+                    <li><a href="Autoridades.html">Autoridades</a></li>
+                    <li><a href="Contacto.html">Contacto</a></li>
+                </ul>
+                <ul class="search">
+                    <a href="#"><i class="fas fa-search"></i></a>
+                </ul>
+                <audio class="radio" src="AUDIO/perfect.mp3" preload="auto" muted controls></audio>
+            </nav>
+        </header>
+        <section id="contacto" class="border">
+            <h2 class="titulo">Formulario de Contacto</h2>
+            <hr>
+            <div class="texto">
+                <form method=post action=accion.php enctype="text/plain">
+
+                    <label for="nombre">
+                        <p><b>Nombre
+                            </b></p>
+                    </label>
+                    <input type="text" name="nombre">
+                    <label for="apellido">
+                        <p><b>Apellido</b></p>
+                    </label>
+                    <input type="text" name="apellido">
+                    <label for="telefono">
+                        <p><b>Teléfono</b></p>
+                    </label>
+                    <input type="tel" name="telefono">
+                    <label for="email"><b>
+                            <p>Correo Electrónico</p>
+                        </b></label>
+                    <input type="email" name="email">
+                </form>
+                <br>
+                <form>
+                    <h3 class="subtitulo">¿Nos conocias?</h3>
+                    <select>
+                        <option value="Si"> si</option>
+                        <option value="No"> no</option>
+                    </select>
+                </form>
+                <br>
+                <form>
+                    <label for="consulta">
+                        <p><b>Motivo de consulta:</b></p>
+                    </label>
+                    <textarea name="consulta" rows="12" cols="65" placeholder="Escribe Aquí..."></textarea>
+                    <br>
+                    <br>
+                    <input type="submit" value="Enviar formulario">
+                    <input type="reset" value="Limpiar datos">
+                </form>
+            </div>
+        </section>
+        <section id="contacto2" class="border">
+            <form>
+                <hr style="margin-top: 46   px;">
+                <h3 class="subtitulo">Ensamblante de Placas de Video preferido:</h3>
+                <input type="checkbox" name="ensambladordeplacas1" value="AMD">
+                <label for="ensambladordeplacas1">AMD</label><br>
+                <input type="checkbox" name="ensambladordeplacas2" value="ASROCK">
+                <label for="ensambladordeplacas2">ASROCK</label><br>
+                <input type="checkbox" name="ensambladordeplacas3" value="GIGABYTE">
+                <label for="ensambladordeplacas3">GIGABYTE</label><br>
+                <input type="checkbox" name="ensambladordeplacas4" value="MSI">
+                <label for="ensambladordeplacas4">MSI</label><br>
+                <input type="checkbox" name="no se" value="no se">
+                <label for="no se">OTRA</label>
+            </form>
+            <div class="maps"><iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.7741487785947!2d-58.40405098417477!3d-34.60987216533188!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccaeee99824eb%3A0x7284dae5775d01be!2sAvenida%20Rivadavia%20%26%20Larrea%2C%20C1034%20CABA!5e0!3m2!1ses-419!2sar!4v1625889336786!5m2!1ses-419!2sar"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
+        </section>
+        <aside>
+            <img class="asideDuki" src="IMG/asideduki.png" alt="asideDuki">
+        </aside>
+        <footer>
+            <div><img src="img/OSMINLOGO.png" class="logo2" alt="Logo2" title="logo2"></div><br>
+            <div>
+                <ul class="infofooter">
+                    <li>AV RIVADAVIA Y LARREA - BALVANERA</li>
+                    <li>1155554444</li>
+                    <li>INFO@SIMICRI.COM.AR</li>
+                    <li>INFO@OSMIN.COM.AR</li>
+                </ul>
+            </div>
+
+        </footer>
+    </div>
+</body>
+
+</html>
